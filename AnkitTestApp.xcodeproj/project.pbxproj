@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188BCD652A6A5B440008A91F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD642A6A5B440008A91F /* AppDelegate.swift */; };
+		188BCD672A6A5B440008A91F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD662A6A5B440008A91F /* SceneDelegate.swift */; };
+		188BCD692A6A5B440008A91F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD682A6A5B440008A91F /* ViewController.swift */; };
+		188BCD6C2A6A5B440008A91F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD6A2A6A5B440008A91F /* Main.storyboard */; };
+		188BCD6E2A6A5B450008A91F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD6D2A6A5B450008A91F /* Assets.xcassets */; };
+		188BCD712A6A5B450008A91F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD6F2A6A5B450008A91F /* LaunchScreen.storyboard */; };
+		188BCD7F2A6A5CD90008A91F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD7D2A6A5CD90008A91F /* SignUpVC.swift */; };
+		188BCD802A6A5CD90008A91F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD7E2A6A5CD90008A91F /* LoginVC.swift */; };
+		188BCD822A6A5D140008A91F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD812A6A5D140008A91F /* Reachability.swift */; };
+		188BCD842A6A60D80008A91F /* GlobleMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD832A6A60D80008A91F /* GlobleMethods.swift */; };
+		188BCD862A6A63960008A91F /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCD852A6A63960008A91F /* FoodVC.swift */; };
+		188BCD972A6A6ECB0008A91F /* JosefinSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD892A6A6ECA0008A91F /* JosefinSans-MediumItalic.ttf */; };
+		188BCD982A6A6ECB0008A91F /* JosefinSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD8A2A6A6ECA0008A91F /* JosefinSans-Light.ttf */; };
+		188BCD992A6A6ECB0008A91F /* JosefinSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD8B2A6A6ECA0008A91F /* JosefinSans-ThinItalic.ttf */; };
+		188BCD9A2A6A6ECB0008A91F /* JosefinSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD8C2A6A6ECA0008A91F /* JosefinSans-ExtraLight.ttf */; };
+		188BCD9B2A6A6ECB0008A91F /* JosefinSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD8D2A6A6ECA0008A91F /* JosefinSans-Regular.ttf */; };
+		188BCD9C2A6A6ECB0008A91F /* JosefinSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD8E2A6A6ECA0008A91F /* JosefinSans-Italic.ttf */; };
+		188BCD9D2A6A6ECB0008A91F /* JosefinSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD8F2A6A6ECA0008A91F /* JosefinSans-Medium.ttf */; };
+		188BCD9E2A6A6ECB0008A91F /* JosefinSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD902A6A6ECA0008A91F /* JosefinSans-ExtraLightItalic.ttf */; };
+		188BCD9F2A6A6ECB0008A91F /* JosefinSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD912A6A6ECA0008A91F /* JosefinSans-Bold.ttf */; };
+		188BCDA02A6A6ECB0008A91F /* JosefinSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD922A6A6ECA0008A91F /* JosefinSans-SemiBold.ttf */; };
+		188BCDA12A6A6ECB0008A91F /* JosefinSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD932A6A6ECA0008A91F /* JosefinSans-LightItalic.ttf */; };
+		188BCDA22A6A6ECB0008A91F /* JosefinSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD942A6A6ECA0008A91F /* JosefinSans-Thin.ttf */; };
+		188BCDA32A6A6ECB0008A91F /* JosefinSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD952A6A6ECB0008A91F /* JosefinSans-SemiBoldItalic.ttf */; };
+		188BCDA42A6A6ECB0008A91F /* JosefinSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 188BCD962A6A6ECB0008A91F /* JosefinSans-BoldItalic.ttf */; };
+		188BCDAA2A6A73CD0008A91F /* AddProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCDA92A6A73CD0008A91F /* AddProductVC.swift */; };
+		188BCDAF2A6A78EB0008A91F /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCDAD2A6A78EB0008A91F /* FoodCell.swift */; };
+		188BCDB02A6A78EB0008A91F /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188BCDAE2A6A78EB0008A91F /* FoodCell.xib */; };
+		188BCDB32A6A7A160008A91F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188BCDB22A6A7A160008A91F /* Model.swift */; };
+		188BCDB52A6A8CB70008A91F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 188BCDB42A6A8CB70008A91F /* GoogleService-Info.plist */; };
+		D5C56A2649B1D9C4CD4719C1 /* Pods_AnkitTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF66C8D03A3208403F21A06 /* Pods_AnkitTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		188BCD612A6A5B440008A91F /* AnkitTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkitTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188BCD642A6A5B440008A91F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188BCD662A6A5B440008A91F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		188BCD682A6A5B440008A91F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		188BCD6B2A6A5B440008A91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188BCD6D2A6A5B450008A91F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188BCD702A6A5B450008A91F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188BCD722A6A5B450008A91F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188BCD7D2A6A5CD90008A91F /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		188BCD7E2A6A5CD90008A91F /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		188BCD812A6A5D140008A91F /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		188BCD832A6A60D80008A91F /* GlobleMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobleMethods.swift; sourceTree = "<group>"; };
+		188BCD852A6A63960008A91F /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
+		188BCD892A6A6ECA0008A91F /* JosefinSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		188BCD8A2A6A6ECA0008A91F /* JosefinSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Light.ttf"; sourceTree = "<group>"; };
+		188BCD8B2A6A6ECA0008A91F /* JosefinSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		188BCD8C2A6A6ECA0008A91F /* JosefinSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		188BCD8D2A6A6ECA0008A91F /* JosefinSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Regular.ttf"; sourceTree = "<group>"; };
+		188BCD8E2A6A6ECA0008A91F /* JosefinSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic.ttf"; sourceTree = "<group>"; };
+		188BCD8F2A6A6ECA0008A91F /* JosefinSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Medium.ttf"; sourceTree = "<group>"; };
+		188BCD902A6A6ECA0008A91F /* JosefinSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		188BCD912A6A6ECA0008A91F /* JosefinSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Bold.ttf"; sourceTree = "<group>"; };
+		188BCD922A6A6ECA0008A91F /* JosefinSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		188BCD932A6A6ECA0008A91F /* JosefinSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		188BCD942A6A6ECA0008A91F /* JosefinSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Thin.ttf"; sourceTree = "<group>"; };
+		188BCD952A6A6ECB0008A91F /* JosefinSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		188BCD962A6A6ECB0008A91F /* JosefinSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		188BCDA92A6A73CD0008A91F /* AddProductVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductVC.swift; sourceTree = "<group>"; };
+		188BCDAD2A6A78EB0008A91F /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		188BCDAE2A6A78EB0008A91F /* FoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		188BCDB22A6A7A160008A91F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		188BCDB42A6A8CB70008A91F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CF66C8D03A3208403F21A06 /* Pods_AnkitTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnkitTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DB07F6C907784F3008CF00 /* Pods-AnkitTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitTestApp.debug.xcconfig"; path = "Target Support Files/Pods-AnkitTestApp/Pods-AnkitTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		76FBA2215F1B5257D9E720BE /* Pods-AnkitTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnkitTestApp.release.xcconfig"; path = "Target Support Files/Pods-AnkitTestApp/Pods-AnkitTestApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188BCD5E2A6A5B440008A91F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C56A2649B1D9C4CD4719C1 /* Pods_AnkitTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188BCD582A6A5B440008A91F = {
+			isa = PBXGroup;
+			children = (
+				188BCD632A6A5B440008A91F /* AnkitTestApp */,
+				188BCD622A6A5B440008A91F /* Products */,
+				81B0C6B7C5C241CC44B220E2 /* Pods */,
+				AD6DB481D7017C4275FCAC9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188BCD622A6A5B440008A91F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188BCD612A6A5B440008A91F /* AnkitTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188BCD632A6A5B440008A91F /* AnkitTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				188BCDB12A6A79F50008A91F /* Model */,
+				188BCD872A6A6EA40008A91F /* Fonts */,
+				188BCD7A2A6A5BF30008A91F /* CommonFiles */,
+				188BCD792A6A5BD90008A91F /* MyClasses */,
+				188BCD782A6A5BD10008A91F /* Viewcontroller */,
+				188BCD642A6A5B440008A91F /* AppDelegate.swift */,
+				188BCD662A6A5B440008A91F /* SceneDelegate.swift */,
+				188BCD682A6A5B440008A91F /* ViewController.swift */,
+				188BCD6A2A6A5B440008A91F /* Main.storyboard */,
+				188BCD6D2A6A5B450008A91F /* Assets.xcassets */,
+				188BCD6F2A6A5B450008A91F /* LaunchScreen.storyboard */,
+				188BCDB42A6A8CB70008A91F /* GoogleService-Info.plist */,
+				188BCD722A6A5B450008A91F /* Info.plist */,
+			);
+			path = AnkitTestApp;
+			sourceTree = "<group>";
+		};
+		188BCD782A6A5BD10008A91F /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				188BCD7B2A6A5C0F0008A91F /* Authentication */,
+				188BCD7C2A6A5C190008A91F /* FoodVC */,
+				188BCDAB2A6A73E70008A91F /* AddProductVC */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		188BCD792A6A5BD90008A91F /* MyClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyClasses;
+			sourceTree = "<group>";
+		};
+		188BCD7A2A6A5BF30008A91F /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				188BCD812A6A5D140008A91F /* Reachability.swift */,
+				188BCD832A6A60D80008A91F /* GlobleMethods.swift */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		188BCD7B2A6A5C0F0008A91F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				188BCD7E2A6A5CD90008A91F /* LoginVC.swift */,
+				188BCD7D2A6A5CD90008A91F /* SignUpVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		188BCD7C2A6A5C190008A91F /* FoodVC */ = {
+			isa = PBXGroup;
+			children = (
+				188BCDAC2A6A78CA0008A91F /* FoodCell */,
+				188BCD852A6A63960008A91F /* FoodVC.swift */,
+			);
+			path = FoodVC;
+			sourceTree = "<group>";
+		};
+		188BCD872A6A6EA40008A91F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				188BCD882A6A6EB70008A91F /* JosefinSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		188BCD882A6A6EB70008A91F /* JosefinSans */ = {
+			isa = PBXGroup;
+			children = (
+				188BCD912A6A6ECA0008A91F /* JosefinSans-Bold.ttf */,
+				188BCD962A6A6ECB0008A91F /* JosefinSans-BoldItalic.ttf */,
+				188BCD8C2A6A6ECA0008A91F /* JosefinSans-ExtraLight.ttf */,
+				188BCD902A6A6ECA0008A91F /* JosefinSans-ExtraLightItalic.ttf */,
+				188BCD8E2A6A6ECA0008A91F /* JosefinSans-Italic.ttf */,
+				188BCD8A2A6A6ECA0008A91F /* JosefinSans-Light.ttf */,
+				188BCD932A6A6ECA0008A91F /* JosefinSans-LightItalic.ttf */,
+				188BCD8F2A6A6ECA0008A91F /* JosefinSans-Medium.ttf */,
+				188BCD892A6A6ECA0008A91F /* JosefinSans-MediumItalic.ttf */,
+				188BCD8D2A6A6ECA0008A91F /* JosefinSans-Regular.ttf */,
+				188BCD922A6A6ECA0008A91F /* JosefinSans-SemiBold.ttf */,
+				188BCD952A6A6ECB0008A91F /* JosefinSans-SemiBoldItalic.ttf */,
+				188BCD942A6A6ECA0008A91F /* JosefinSans-Thin.ttf */,
+				188BCD8B2A6A6ECA0008A91F /* JosefinSans-ThinItalic.ttf */,
+			);
+			path = JosefinSans;
+			sourceTree = "<group>";
+		};
+		188BCDAB2A6A73E70008A91F /* AddProductVC */ = {
+			isa = PBXGroup;
+			children = (
+				188BCDA92A6A73CD0008A91F /* AddProductVC.swift */,
+			);
+			path = AddProductVC;
+			sourceTree = "<group>";
+		};
+		188BCDAC2A6A78CA0008A91F /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				188BCDAD2A6A78EB0008A91F /* FoodCell.swift */,
+				188BCDAE2A6A78EB0008A91F /* FoodCell.xib */,
+			);
+			path = FoodCell;
+			sourceTree = "<group>";
+		};
+		188BCDB12A6A79F50008A91F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				188BCDB22A6A7A160008A91F /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81B0C6B7C5C241CC44B220E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59DB07F6C907784F3008CF00 /* Pods-AnkitTestApp.debug.xcconfig */,
+				76FBA2215F1B5257D9E720BE /* Pods-AnkitTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD6DB481D7017C4275FCAC9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CF66C8D03A3208403F21A06 /* Pods_AnkitTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188BCD602A6A5B440008A91F /* AnkitTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188BCD752A6A5B450008A91F /* Build configuration list for PBXNativeTarget "AnkitTestApp" */;
+			buildPhases = (
+				BADA6C20BDB40463B321A354 /* [CP] Check Pods Manifest.lock */,
+				188BCD5D2A6A5B440008A91F /* Sources */,
+				188BCD5E2A6A5B440008A91F /* Frameworks */,
+				188BCD5F2A6A5B440008A91F /* Resources */,
+				B709F735915DBB885869F45D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnkitTestApp;
+			productName = AnkitTestApp;
+			productReference = 188BCD612A6A5B440008A91F /* AnkitTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188BCD592A6A5B440008A91F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					188BCD602A6A5B440008A91F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 188BCD5C2A6A5B440008A91F /* Build configuration list for PBXProject "AnkitTestApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188BCD582A6A5B440008A91F;
+			productRefGroup = 188BCD622A6A5B440008A91F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188BCD602A6A5B440008A91F /* AnkitTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188BCD5F2A6A5B440008A91F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188BCD9A2A6A6ECB0008A91F /* JosefinSans-ExtraLight.ttf in Resources */,
+				188BCD712A6A5B450008A91F /* LaunchScreen.storyboard in Resources */,
+				188BCD6E2A6A5B450008A91F /* Assets.xcassets in Resources */,
+				188BCDB02A6A78EB0008A91F /* FoodCell.xib in Resources */,
+				188BCD9D2A6A6ECB0008A91F /* JosefinSans-Medium.ttf in Resources */,
+				188BCD6C2A6A5B440008A91F /* Main.storyboard in Resources */,
+				188BCD9F2A6A6ECB0008A91F /* JosefinSans-Bold.ttf in Resources */,
+				188BCD982A6A6ECB0008A91F /* JosefinSans-Light.ttf in Resources */,
+				188BCD9B2A6A6ECB0008A91F /* JosefinSans-Regular.ttf in Resources */,
+				188BCDA42A6A6ECB0008A91F /* JosefinSans-BoldItalic.ttf in Resources */,
+				188BCD972A6A6ECB0008A91F /* JosefinSans-MediumItalic.ttf in Resources */,
+				188BCDB52A6A8CB70008A91F /* GoogleService-Info.plist in Resources */,
+				188BCDA12A6A6ECB0008A91F /* JosefinSans-LightItalic.ttf in Resources */,
+				188BCDA02A6A6ECB0008A91F /* JosefinSans-SemiBold.ttf in Resources */,
+				188BCD992A6A6ECB0008A91F /* JosefinSans-ThinItalic.ttf in Resources */,
+				188BCD9C2A6A6ECB0008A91F /* JosefinSans-Italic.ttf in Resources */,
+				188BCD9E2A6A6ECB0008A91F /* JosefinSans-ExtraLightItalic.ttf in Resources */,
+				188BCDA22A6A6ECB0008A91F /* JosefinSans-Thin.ttf in Resources */,
+				188BCDA32A6A6ECB0008A91F /* JosefinSans-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B709F735915DBB885869F45D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnkitTestApp/Pods-AnkitTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnkitTestApp/Pods-AnkitTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnkitTestApp/Pods-AnkitTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BADA6C20BDB40463B321A354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnkitTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188BCD5D2A6A5B440008A91F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188BCD862A6A63960008A91F /* FoodVC.swift in Sources */,
+				188BCD7F2A6A5CD90008A91F /* SignUpVC.swift in Sources */,
+				188BCD692A6A5B440008A91F /* ViewController.swift in Sources */,
+				188BCD822A6A5D140008A91F /* Reachability.swift in Sources */,
+				188BCD842A6A60D80008A91F /* GlobleMethods.swift in Sources */,
+				188BCD652A6A5B440008A91F /* AppDelegate.swift in Sources */,
+				188BCD672A6A5B440008A91F /* SceneDelegate.swift in Sources */,
+				188BCDAF2A6A78EB0008A91F /* FoodCell.swift in Sources */,
+				188BCDB32A6A7A160008A91F /* Model.swift in Sources */,
+				188BCD802A6A5CD90008A91F /* LoginVC.swift in Sources */,
+				188BCDAA2A6A73CD0008A91F /* AddProductVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		188BCD6A2A6A5B440008A91F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188BCD6B2A6A5B440008A91F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188BCD6F2A6A5B450008A91F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188BCD702A6A5B450008A91F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188BCD732A6A5B450008A91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		188BCD742A6A5B450008A91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188BCD762A6A5B450008A91F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DB07F6C907784F3008CF00 /* Pods-AnkitTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkitTestApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnkitTestApp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Want to Use for Camera Use";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME) Want to Use for Photo Use";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) Want to Use for Photo Use";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ankitTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		188BCD772A6A5B450008A91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76FBA2215F1B5257D9E720BE /* Pods-AnkitTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnkitTestApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AnkitTestApp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(PRODUCT_NAME) Want to Use for Camera Use";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "$(PRODUCT_NAME) Want to Use for Photo Use";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(PRODUCT_NAME) Want to Use for Photo Use";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ankitTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188BCD5C2A6A5B440008A91F /* Build configuration list for PBXProject "AnkitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188BCD732A6A5B450008A91F /* Debug */,
+				188BCD742A6A5B450008A91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188BCD752A6A5B450008A91F /* Build configuration list for PBXNativeTarget "AnkitTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188BCD762A6A5B450008A91F /* Debug */,
+				188BCD772A6A5B450008A91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188BCD592A6A5B440008A91F /* Project object */;
+}
